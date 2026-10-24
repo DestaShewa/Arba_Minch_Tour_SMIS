@@ -1,0 +1,17 @@
+export const DB_KEYS = {
+  INITIALIZED: 'ama_db_initialized',
+  SCHOOL: 'ama_db_school',
+  ACADEMIC_YEARS: 'ama_db_academic_years',
+  CLASS_SECTIONS: 'ama_db_class_sections',
+  SUBJECTS: 'ama_db_subjects',
+  TEACHERS: 'ama_db_teachers',
+  STUDENTS: 'ama_db_students',
+  FEE_STRUCTURES: 'ama_db_fee_structures',
+  FEE_INVOICES: 'ama_db_fee_invoices',
+  FEE_PAYMENTS: 'ama_db_fee_payments',
+  ATTENDANCE: 'ama_db_attendance',
+  EXAMS: 'ama_db_exams',
+  MARKS: 'ama_db_marks',
+  SMS_QUEUE: 'ama_db_sms_queue',
+  SYNC_QUEUE: 'ama_db_sync_queue',
+} as const;

@@ -1,0 +1,10 @@
+export type * from './auth';
+export type * from './navigation';
+export type * from './academic';
+export type * from './student';
+export type * from './teacher';
+export type * from './attendance';
+export type * from './fee';
+export type * from './exam';
+export type * from './sms';
+export type * from './sync';
