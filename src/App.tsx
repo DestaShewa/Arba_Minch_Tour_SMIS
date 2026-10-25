@@ -11,7 +11,7 @@ export const App: React.FC = () => {
   useEffect(() => {
     // 1. Initialize local persistent database with 60 students & 8 teachers
     initializeLocalDatabase();
-    // 2. Hydrate authenticated session
+    // 2. Hydrate authenticated session yes is right
     initializeAuth();
   }, [initializeAuth]);
 
